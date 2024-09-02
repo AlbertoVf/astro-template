@@ -1,0 +1,8 @@
+{
+	"files.autoSave": "afterDelay",
+	"editor.renderWhitespace": "all",
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.formatOnSave": true,
+	"files.autoSaveWhenNoErrors": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
+}

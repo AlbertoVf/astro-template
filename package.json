@@ -1,0 +1,30 @@
+{
+	"name": "",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"format": "prettier --write **/*.{ts,js,html,css,astro,json}"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.3",
+		"@astrojs/db": "^0.13.2",
+		"@astrojs/tailwind": "^5.1.0",
+		"astro": "^4.14.6",
+		"typescript": "^5.5.4"
+	},
+	"devDependencies": {
+		"eslint": "8.57.0",
+		"eslint-config-prettier": "9.1.0",
+		"eslint-plugin-astro": "1.2.2",
+		"eslint-plugin-jsx-a11y": "6.9.0",
+		"prettier": "3.3.2",
+		"prettier-plugin-astro": "0.14.0",
+		"prettier-plugin-astro-organize-imports": "0.4.9",
+		"prettier-plugin-tailwindcss": "0.6.5"
+	}
+}

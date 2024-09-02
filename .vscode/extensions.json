@@ -1,0 +1,19 @@
+{
+	"recommendations": [
+		"astro-build.astro-vscode",
+		"chouzz.vscode-better-align",
+		"aaron-bond.better-comments",
+		"naumovs.color-highlight",
+		"vivaxy.vscode-conventional-commits",
+		"hediet.vscode-drawio",
+		"kisstkondoros.vscode-gutter-preview",
+		"shd101wyy.markdown-preview-enhanced",
+		"christian-kohler.path-intellisense",
+		"jock.svg",
+		"esbenp.prettier-vscode",
+		"bradlc.vscode-tailwindcss",
+		"stivo.tailwind-fold",
+		"rangav.vscode-thunder-client"
+	],
+	"unwantedRecommendations": []
+}

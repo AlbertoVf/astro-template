@@ -1,0 +1,34 @@
+{
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": true,
+	"jsxSingleQuote": false,
+	"quoteProps": "consistent",
+	"tabWidth": 4,
+	"trailingComma": "es5",
+	"endOfLine": "lf",
+	"arrowParens": "always",
+	"plugins": [
+		"prettier-plugin-astro",
+		"prettier-plugin-tailwindcss",
+		"prettier-plugin-astro-organize-imports"
+	],
+	"overrides": [
+		{
+			"files": [
+				"*.md",
+				"*.toml",
+				"*.yml"
+			],
+			"options": {
+				"useTabs": false
+			}
+		},
+		{
+			"files": "*.astro",
+			"options": {
+				"parser": "astro"
+			}
+		}
+	],
+}
