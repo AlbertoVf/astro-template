@@ -1,0 +1,43 @@
+---
+interface Props {
+	title?: string;
+	class?: string;
+}
+
+const { title, class: className, ...rest } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title || 'Casa Dopazo'}</title>
+	</head>
+	<body>
+		<slot class={className} {...rest} />
+	</body>
+	<style is:global>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:wght@100..900&display=swap');
+		:root {
+			--color-primary: #27272a;
+			--color-secondary: #1e293b;
+			--color-neutral: #1c1917;
+			--color-grey-light: #9ca3af;
+			--color-grey: #6b7280;
+			--color-grey-dark: #374151;
+			--color-valid: #22c55e;
+			--color-invalid: #dc2626;
+			--color-white: #f3f4f6;
+			--color-blue: #0284c7;
+			--color-red: #be185d;
+			--color-green: #065f46;
+		}
+	</style>
+</html>
